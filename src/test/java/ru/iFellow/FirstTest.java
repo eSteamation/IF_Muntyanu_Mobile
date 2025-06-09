@@ -10,7 +10,7 @@ import ru.iFellow.Pages.SearchList;
 public class FirstTest extends Hook {
 
     @Test
-    public void MyTestCheckEmulator() {
+    public void SearchingTest() {
         OnboardingPage onboardingPage = new OnboardingPage();
         MainPage mainPage = new MainPage();
         SearchList searchList = new SearchList();

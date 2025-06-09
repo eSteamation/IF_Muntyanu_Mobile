@@ -15,7 +15,6 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.jupiter.version>5.13.0-M2</junit.jupiter.version>
-        <appium.java.client.version>8.3.0</appium.java.client.version> <!-- уточните актуальную версию -->
     </properties>
 
     <dependencies>
@@ -30,12 +29,6 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.jupiter.version}</version>
         </dependency>
-        <!--    <dependency>-->
-        <!--      <groupId>org.junit.platform</groupId>-->
-        <!--      <artifactId>junit-platform-suite</artifactId>-->
-        <!--      <version>1.9.3</version>-->
-        <!--      <scope>test</scope>-->
-        <!--    </dependency>-->
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
