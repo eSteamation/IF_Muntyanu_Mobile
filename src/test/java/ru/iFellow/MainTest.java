@@ -7,7 +7,7 @@ import ru.iFellow.Pages.MainPage;
 import ru.iFellow.Pages.OnboardingPage;
 import ru.iFellow.Pages.SearchList;
 
-public class FirstTest extends Hook {
+public class MainTest extends Hook {
 
     @Test
     public void SearchingTest() {
